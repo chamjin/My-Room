@@ -1,0 +1,96 @@
+h1,
+h2,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  background-attachment: fixed; /* 배경 이미지가 스크롤에 영향 받지 않게 고정 */
+  background-size: cover; /* 배경 이미지를 화면 크기에 맞게 */
+  background-position: center; /* 배경 이미지 위치 */
+  background-image: url(images/halloween-background.gif);
+  background-color: #666;
+}
+
+.wrapper {
+  background-color: #ddd;
+  width: 800px;
+  margin: 5px auto;
+}
+
+.header {
+  background-image: url(images/halloween-header-bg.png);
+  color: white;
+  height: 400px;
+  text-align: center;
+}
+
+.header .profile {
+  margin-top: 50px;
+}
+
+.header h1 {
+  color: violet;
+  margin: 10px 0;
+}
+
+.header p {
+  background-color: black;
+  color: #888;
+  width: 400px;
+  margin: 0px auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.section {
+  background-image: url(images/icon-information.png);
+  background-repeat: no-repeat; /* 크기가 작아도 반복하지 않게 하는 방법 */
+  background-color: white;
+  background-position: right 30px center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.skills {
+  background-image: url(images/icon-skills.png);
+}
+
+.section h2 {
+  color: orangered;
+  margin-bottom: 20px;
+}
+
+.section li {
+  background-image: url(images/icon-jack2.png);
+  background-repeat: no-repeat;
+  background-position: left center; /* 오른쪽 센터 위치 */
+  padding: 10px 43px 8px;
+}
+
+.section li:hover {
+  color: orangered;
+  background-image: url(images/icon-jack.png);
+}
+
+.footer {
+  background-color: #111;
+  color: #999;
+  padding: 10px 0;
+  text-align: center;
+  color: violet;
+  letter-spacing: 5px; /* 글자 사이 간격 */
+  text-indent: 5px; /* 들여쓰기 */
+}
+
+/* padding과 margin
+padding은 안쪽 여백 / margin은 바깥쪽 여백
+padding을 주면 전체 길이가 변하기 때문에 다른 방법을 이용해서 하는 것을 추천
+width 값에 padding과 border 값이 더해진 것이 전체 너비이다.
+그렇기 때문에 padding을 주면 전체 길이가 바뀌는 것 */
